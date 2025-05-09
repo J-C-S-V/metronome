@@ -1,0 +1,81 @@
+/* Create a CSS reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 25rem;
+  height: 18.75rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.counter {
+  font-size: 3rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button--plus {
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+}
+
+.button--minus {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  width: 50px;
+  height: 50px;
+}
+
+.buttons-start-stop {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.button--start {
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(79, 255, 117);
+  color: #000000;
+}
+
+.button--stop {
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 41, 41);
+  color: #ffffff;
+}
+.slider {
+  margin: 1rem;
+}
