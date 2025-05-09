@@ -9,7 +9,7 @@ const slider = document.querySelector(".slider");
 // Audio speed 1 sec
 
 let count = Number(counter.textContent);
-const audio = new Audio("beat.mp3");
+const audio = new Audio("metronome_beat_1.wav");
 
 // audio.volume = 0.5;
 audio.playbackRate = count / 60;
