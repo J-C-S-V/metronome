@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 72.5%;
+}
+
+:root {
+  --text-white: #fff;
+  --text-black: #000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background: radial-gradient(
+    circle,
+    rgba(169, 166, 255, 1) 0%,
+    rgba(9, 9, 92, 1) 55%,
+    rgba(189, 0, 0, 1) 100%
+  );
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid var(--text-black);
+  border-radius: 10px;
+  width: 30rem;
+  height: 38rem;
+  color: var(--text-black);
+  background-color: var(--text-white);
+  padding: 2rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.counter {
+  font-size: 4rem;
+}
+
+.buttons {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.buttons__plus-minus {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button--plus,
+.button--minus,
+.button--start,
+.button--stop {
+  font-size: 4rem;
+  width: 5rem;
+  height: 5rem;
+  border: 3px solid var(--text-black);
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--plus:active,
+.button--minus:active,
+.button--start:active,
+.button--stop:active {
+  transform: scale(0.98);
+}
+
+.buttons__start-stop {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.button--start,
+.button--stop {
+  font-size: 1.8rem;
+  color: var(--text-black);
+  font-weight: 600;
+  width: 10rem;
+}
+
+.button--start {
+  background-color: rgb(79, 255, 117);
+}
+
+.button--stop {
+  background-color: rgb(255, 41, 41);
+}
+.slider {
+  margin: 2rem;
+  width: 80%;
+}
