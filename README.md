@@ -5,8 +5,8 @@ A personalized metronome app for musicians. It allows users to set custom beats 
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://unsplash.com/photos/04X1Yp9hNH8">
-  <img src="https://github.com/J-C-S-V/spacex-project/assets/109441277/67864144-6dad-4db2-9b90-ad2ca7b9e4aa" alt="logo" width="740" height="auto" /><br/>
+  <a href="#">
+  <img src="./Metronome hero.png" alt="logo" width="440" height="auto" /><br/>
   </a>
 </div>
 
@@ -24,7 +24,7 @@ A personalized metronome app for musicians. It allows users to set custom beats 
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
-- [👷‍👷‍♀️ Author](#author)
+- [👷 Author](#author)
 - [🔭 Future features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -56,9 +56,9 @@ This project is a Single Page Application (SPA), utilizing modern web technologi
 
 ### Key features <a name="key-features"></a>
 
+- **[Customizable BPM]**
 - **[Minimalistic user interface]**
 - **[Single Page Application]**
-- **[Customizable BPM]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live demo <a name="live-demo"></a>
@@ -77,7 +77,7 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 
-`git clone` https://github.com/J-C-S-V/spacex-project
+`git clone` https://github.com/J-C-S-V/metronome.git
 
 ### Install
 
@@ -97,13 +97,15 @@ You can deploy this project using:
 
 - [GitHub Pages](https://pages.github.com/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 👷‍♂️ Author <a name="author"></a>
 
 👷‍♂️ **Juan Sanchez**
 
 - GitHub: [Juan Sanchez](https://github.com/J-C-S-V)
 - Twitter: [Juan Sanchez](https://twitter.com/juansan0)
-- LinkedIn: [Juan Sanchez](https://www.linkedin.com/in/juan-carlos-sanchez-vargas-a308b014b/)
+- LinkedIn: [Juan Sanchez](https://www.linkedin.com/in/sanchez-juan-carlos)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +119,9 @@ You can deploy this project using:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome! 😀
+Make this app better. Contributions, issues, and feature requests are welcome! 😀
+
+Fork this repository and create a pull request to add your changes.
 
 Feel free to check the [issues page](../../issues/).
 
