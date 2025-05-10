@@ -5,8 +5,8 @@ A personalized metronome app for musicians. It allows users to set custom beats 
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="#">
-  <img src="./Metronome hero.png" alt="logo" width="440" height="auto" /><br/>
+  <a href="https://j-c-s-v.github.io/metronome/" target="_blank">
+  <img src="./metronome_hero.png" alt="logo" width="440" height="auto" /><br/>
   </a>
 </div>
 
@@ -63,9 +63,7 @@ This project is a Single Page Application (SPA), utilizing modern web technologi
 
 ## 🚀 Live demo <a name="live-demo"></a>
 
-Under construction.
-
-<!-- - [Live Demo Link](https://j-c-s-v.github.io/webpack-to-do-list/) -->
+- [Live Demo Link](https://j-c-s-v.github.io/metronome/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
