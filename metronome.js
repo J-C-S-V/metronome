@@ -4,20 +4,15 @@ const buttonMinus = document.querySelector(".button--minus");
 const buttonStart = document.querySelector(".button--start");
 const buttonStop = document.querySelector(".button--stop");
 const slider = document.querySelector(".slider");
-// const sliderValue = document.getElementById("sliderValue");
-
-// Audio speed 1 sec
 
 let count = Number(counter.textContent);
-const audio = new Audio("metronome_beat_1.wav");
+const audio = new Audio("metronome_beat.wav");
 
-// audio.volume = 0.5;
-audio.playbackRate = count / 60;
+audio.playbackRate = 1; // Sometimes this needs to be set to 1.05 to work properly for some reason
 
 buttonStart.addEventListener("click", () => {
   audio.play();
   audio.loop = true;
-  console.log("audio duration", audio.duration);
 });
 
 buttonStop.addEventListener("click", () => {
