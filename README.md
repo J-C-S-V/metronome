@@ -39,6 +39,8 @@ To ensure a responsive and accurate user experience, a smoke test was conducted,
 
 This project is a Single Page Application (SPA), utilizing modern web technologies to deliver a smooth and interactive experience. With client-side rendering, the app provides real-time feedback and settings adjustments without the need for page reloads, allowing users to focus entirely on their rhythm training.
 
+This was built using vanilla JavaScript, HTML, CSS, DOM Manipulation, Audio API, and BEM notation.
+
 ## 🛠 Built with <a name="built-with"></a>
 
 ### Tech stack <a name="tech-stack"></a>
